@@ -1,2 +1,2 @@
 # Investment-Dashboard
-![image](https://github.com/JarvisLu1029/Investment-Dashboard/assets/115854341/6d5c685e-2717-4694-9fce-ab6230f91c37)
+![image](https://github.com/JarvisLu1029/Investment-Dashboard/assets/115854341/2876619f-79e5-4796-bc0b-07de4b5320bb)
