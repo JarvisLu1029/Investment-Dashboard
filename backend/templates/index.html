@@ -1,0 +1,434 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="{% static 'images/asset.png' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style_chart.css' %}">
+
+    <title>Asset Dashboard</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="{% static 'images/logo.png' %}">
+                    <h2>Jarvis<span class="danger">Lu</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        receipt_long
+                    </span>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        inventory
+                    </span>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        add
+                    </span>
+                    <h3>New Login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <h1>Analytics</h1>
+            <!-- Analyses -->
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Investment</h3>
+                            <h1 id="total-investment"></h1>
+                        </div>
+                        <div class="progresss">
+                            <canvas id="myChart" width="92" height="92"></canvas>
+
+                            <!-- <svg> -->
+                            <!-- <circle cx="38" cy="38" r="36"></circle> -->
+                            <!-- </svg> -->
+                            <div class="percentage">
+                                <p style="margin-top: 15px;">0%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Profit and Loss</h3>
+                            <h1 id="total-profit"></h1>
+                        </div>
+                        <div class="progresss">
+                            <canvas id="profitLossChart" width="92" height="92"></canvas>
+                            <div class="percentage">
+                                <p style="margin-top: 15px;">0%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Income</h3>
+                            <h1 id="total-salary"></h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+21%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analyses -->
+
+            <!-- Chart -->
+            <div class="chart">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Recent Profit</h3>
+                            <h1 id="total-investment"></h1>
+                        </div>
+                        <div class="progresss">
+                            <canvas id="lineChart"></canvas>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <select name="myOptions" id="dynamicSelect"
+                                style="background-color: #dd8800; border-radius: 5px; width: 80px;">
+                            </select>
+
+                            <h3>Recent Price</h3>
+                            <h1 id="investment_price"></h1>
+                        </div>
+                        <div class="progresss">
+                            <canvas id="lineChartPrice"></canvas>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End of Chart -->
+
+            <!-- Recent Orders Table -->
+            <div class="recent-orders">
+                <div style="display: flex;">
+                    <h2 style="margin-right: 10px;">Asset Allocation</h2>
+                    <button id="addRowButton"
+                        style="height: 25px;background-color: var(--color-white);color: var(--color-dark);">
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                    </button>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Investment Products</th>
+                            <th>Investment Amount</th>
+                            <th>Investment Price</th>
+                            <th>Investment Date</th>
+                            <th>Current Value</th>
+                            <th>Profit and Loss</th>
+                        </tr>
+
+                    </thead>
+                    <tbody id="assetTable">
+                        <tr>
+                            <td class="delete-cell">
+                                <button id="editAsset" class="edit-button">
+                                    <span class="material-icons-sharp">edit</span>
+                                </button>
+                            </td>
+                            <td><input type="text" readonly></td>
+                            <td><input type="text" class="input-number" readonly></td>
+                            <td><input type="text" class="input-number2" readonly></td>
+                            <td><input type="date" class="input-number3" readonly></td>
+                            <td><input type="text" class="input-number4" readonly></td>
+                            <td><input type="text" class="input-number5" readonly></td>
+                        </tr>
+                        <tr>
+                            <td class="delete-cell"></td>
+                            <td><input type="text" readonly></td>
+                            <td><input type="text" class="input-number" readonly></td>
+                            <td><input type="text" class="input-number2" readonly></td>
+                            <td><input type="date" class="input-number3" readonly></td>
+                            <td><input type="text" class="input-number4" readonly></td>
+                            <td><input type="text" class="input-number5" readonly></td>
+                        </tr>
+                        <tr>
+                            <td class="delete-cell"></td>
+                            <td><input type="text" readonly></td>
+                            <td><input type="text" class="input-number" readonly></td>
+                            <td><input type="text" class="input-number2" readonly></td>
+                            <td><input type="date" class="input-number3" readonly></td>
+                            <td><input type="text" class="input-number4" readonly></td>
+                            <td><input type="text" class="input-number5" readonly></td>
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+                <!-- <a href="#">Show All</a> -->
+            </div>
+            <!-- End of Recent Orders -->
+
+            <div class="recent-orders">
+                <div style="display: flex;">
+                    <h2 style="margin-right: 10px;">Stock Investment</h2>
+                    <button id="addSalaryRowButton"
+                        style="height: 25px;background-color: var(--color-white);color: var(--color-dark);">
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                    </button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Investment Products</th>
+                            <th>Investment Amount</th>
+                            <th>Investment Price</th>
+                            <th>Investment Date</th>
+                            <th>Current Value</th>
+                            <th>Profit and Loss</th>
+                        </tr>
+
+                    </thead>
+                    <tbody id="stockTable">
+                        <tr>
+                            <td class="delete-cell">
+                                <button id="editStock" class="edit-button">
+                                    <span class="material-icons-sharp">edit</span>
+                                </button>
+                            </td>
+                            <td><input type="text" readonly></td>
+                            <td><input type="text" class="input-number" readonly></td>
+                            <td><input type="text" class="input-number2" readonly></td>
+                            <td><input type="date" class="input-number3" readonly></td>
+                            <td><input type="text" class="input-number4" readonly></td>
+                            <td><input type="text" class="input-number5" readonly></td>
+                        </tr>
+                        <tr>
+                            <td class="delete-cell"></td>
+                            <td><input type="text" readonly></td>
+                            <td><input type="text" class="input-number" readonly></td>
+                            <td><input type="text" class="input-number2" readonly></td>
+                            <td><input type="date" class="input-number3" readonly></td>
+                            <td><input type="text" class="input-number4" readonly></td>
+                            <td><input type="text" class="input-number5" readonly></td>
+                        </tr>
+                        <tr>
+                            <td class="delete-cell"></td>
+                            <td><input type="text" readonly></td>
+                            <td><input type="text" class="input-number" readonly></td>
+                            <td><input type="text" class="input-number2" readonly></td>
+                            <td><input type="date" class="input-number3" readonly></td>
+                            <td><input type="text" class="input-number4" readonly></td>
+                            <td><input type="text" class="input-number5" readonly></td>
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+            </div>
+
+
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b></b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="{% static 'images/logo.png' %}">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="{% static 'images/logo.png' %}">
+                    <h2></h2>
+                    <p>Fullstack Web Developer</p>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                08:00 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                08:00 AM - 12:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="notification add-reminder">
+                    <div>
+
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                        <h3>Add Reminder</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- <script src="orders.js"></script> -->
+    <script src="{% static 'js/index.js' %}"></script>
+    <script src="{% static 'js/assect.js' %}"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{% static 'js/chart.js' %}"></script>
+    <script src="{% static 'js/form.js' %}"></script>
+
+</body>
+
+</html>

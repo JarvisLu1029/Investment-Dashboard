@@ -1,0 +1,12 @@
+[
+    {
+      "model": "main.TrackingStock",
+      "pk": "4",
+      "fields": {
+        "code": "USD",
+        "name": "",
+        "market": "",
+        "create_time": "2024-02-25 23:28:42"
+      }
+    }
+]

@@ -1,0 +1,51 @@
+version: '3.7'
+services:
+  project3_backend:
+    build:
+      context: .
+      dockerfile: dockerfile
+    image: project3_backend:latest
+    container_name: project3_backend
+    volumes:
+      - ./backend/:/home/backend/
+    ports:
+      - 8083:80
+    working_dir: /home/backend/
+    stdin_open: true
+    tty: true
+    command: bash -c "./celery.sh"
+    # command: bash -c "python manage.py runserver 0.0.0.0:80"
+
+  redis:
+    image: redis:latest
+    container_name: project3_redis
+    ports:
+      - 6373:6379
+
+  mysql:
+    image: mysql:latest
+    container_name: project3_mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=passw0rd!
+      - MYSQL_DATABASE=main
+      - MYSQL_USER=user1
+      - MYSQL_PASSWORD=user1
+      - TZ=Asia/Taipei
+    volumes:
+      - ./mysql/mysql_data:/var/lib/mysql/
+      - ./mysql:/docker-entrypoint-initdb.d
+    ports:
+      - 3303:3306
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: unless-stopped
+    user: '0'
+    environment:
+      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-polystat-panel
+    volumes:
+      - ./grafana:/var/lib/grafana
+    ports:
+      - 3000:3000
+  

@@ -1,0 +1,14 @@
+selenium
+webdriver-manager
+beautifulsoup4
+lxml
+# Backend tools
+django
+django-cors-headers
+djangorestframework
+django-redis
+celery
+redis
+mysqlclient
+matplotlib
+line-bot-sdk
