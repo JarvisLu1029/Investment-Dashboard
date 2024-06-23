@@ -1,0 +1,236 @@
+[
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 1,
+            "price": 9.1989,
+            "create_time": "2024-02-19 23:56:09",
+            "asset_id_id": "富利人生"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 6,
+            "price": 9.2194,
+            "create_time": "2024-02-22 07:18:31",
+            "asset_id_id": "富利人生"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 7,
+            "price": 6.6713,
+            "create_time": "2024-02-22 07:20:08",
+            "asset_id_id": "鑫美一生(安聯)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 8,
+            "price": 7.55,
+            "create_time": "2024-02-22 07:20:55",
+            "asset_id_id": "鑫美一生(富蘭克林)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 13,
+            "price": 9.3218,
+            "create_time": "2024-02-24 12:28:24",
+            "asset_id_id": "富利人生"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 14,
+            "price": 9.92,
+            "create_time": "2024-02-24 12:28:26",
+            "asset_id_id": "柏瑞趨勢動態多重資產基金-B類型"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 15,
+            "price": 6.7323,
+            "create_time": "2024-02-24 12:28:34",
+            "asset_id_id": "鑫美一生(安聯)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 16,
+            "price": 7.66,
+            "create_time": "2024-02-24 12:28:42",
+            "asset_id_id": "鑫美一生(富蘭克林)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 17,
+            "price": 9.3218,
+            "create_time": "2024-02-24 13:43:23",
+            "asset_id_id": "富利人生"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 18,
+            "price": 9.92,
+            "create_time": "2024-02-24 13:43:25",
+            "asset_id_id": "柏瑞趨勢動態多重資產基金-B類型"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 19,
+            "price": 6.7323,
+            "create_time": "2024-02-24 13:43:32",
+            "asset_id_id": "鑫美一生(安聯)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 20,
+            "price": 7.66,
+            "create_time": "2024-02-24 13:43:40",
+            "asset_id_id": "鑫美一生(富蘭克林)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 21,
+            "price": 9.3218,
+            "create_time": "2024-02-25 17:58:06",
+            "asset_id_id": "富利人生"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 22,
+            "price": 9.92,
+            "create_time": "2024-02-25 17:58:07",
+            "asset_id_id": "柏瑞趨勢動態多重資產基金-B類型"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 23,
+            "price": 6.7323,
+            "create_time": "2024-02-25 17:58:14",
+            "asset_id_id": "鑫美一生(安聯)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 24,
+            "price": 7.66,
+            "create_time": "2024-02-25 17:58:21",
+            "asset_id_id": "鑫美一生(富蘭克林)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 25,
+            "price": 9.3218,
+            "create_time": "2024-02-26 13:45:18",
+            "asset_id_id": "富利人生"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 26,
+            "price": 9.92,
+            "create_time": "2024-02-26 13:45:19",
+            "asset_id_id": "柏瑞趨勢動態多重資產基金-B類型"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 27,
+            "price": 6.7323,
+            "create_time": "2024-02-26 13:45:35",
+            "asset_id_id": "鑫美一生(安聯)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 28,
+            "price": 7.66,
+            "create_time": "2024-02-26 13:45:42",
+            "asset_id_id": "鑫美一生(富蘭克林)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 29,
+            "price": 9.3339,
+            "create_time": "2024-02-27 13:45:20",
+            "asset_id_id": "富利人生"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 30,
+            "price": 9.3225,
+            "create_time": "2024-02-28 20:15:29",
+            "asset_id_id": "富利人生"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 31,
+            "price": 157.38,
+            "create_time": "2024-02-28 20:15:30",
+            "asset_id_id": "摩根泰國基金"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 32,
+            "price": 9.95,
+            "create_time": "2024-02-28 20:15:31",
+            "asset_id_id": "柏瑞趨勢動態多重資產基金-B類型"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 33,
+            "price": 6.7308,
+            "create_time": "2024-02-28 20:15:40",
+            "asset_id_id": "鑫美一生(安聯)"
+        }
+    },
+    {
+        "model": "main.trackingassetprice",
+        "field": {
+            "id": 34,
+            "price": 7.66,
+            "create_time": "2024-02-28 20:15:47",
+            "asset_id_id": "鑫美一生(富蘭克林)"
+        }
+    }
+]

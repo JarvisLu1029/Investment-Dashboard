@@ -1,0 +1,785 @@
+[
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 1,
+            "price": 11.79,
+            "create_time": "2024-02-11 05:22:04",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 2,
+            "price": 13.75,
+            "create_time": "2024-02-11 05:22:04",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 3,
+            "price": 260.5,
+            "create_time": "2024-02-11 05:22:04",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 4,
+            "price": 11.79,
+            "create_time": "2024-02-11 23:30:00",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 5,
+            "price": 13.75,
+            "create_time": "2024-02-11 23:30:00",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 6,
+            "price": 260.5,
+            "create_time": "2024-02-11 23:30:00",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 7,
+            "price": 11.79,
+            "create_time": "2024-02-12 03:06:44",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 8,
+            "price": 13.75,
+            "create_time": "2024-02-12 03:06:44",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 9,
+            "price": 260.5,
+            "create_time": "2024-02-12 03:06:44",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 10,
+            "price": 11.79,
+            "create_time": "2024-02-12 03:15:05",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 11,
+            "price": 13.75,
+            "create_time": "2024-02-12 03:15:05",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 12,
+            "price": 260.5,
+            "create_time": "2024-02-12 03:15:05",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 13,
+            "price": 11.79,
+            "create_time": "2024-02-12 03:16:14",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 14,
+            "price": 13.75,
+            "create_time": "2024-02-12 03:16:14",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 15,
+            "price": 260.5,
+            "create_time": "2024-02-12 03:16:14",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 16,
+            "price": 11.79,
+            "create_time": "2024-02-12 11:35:27",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 17,
+            "price": 13.75,
+            "create_time": "2024-02-12 11:35:27",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 18,
+            "price": 260.5,
+            "create_time": "2024-02-12 11:35:27",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 19,
+            "price": 11.79,
+            "create_time": "2024-02-12 23:30:00",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 20,
+            "price": 13.75,
+            "create_time": "2024-02-12 23:30:00",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 21,
+            "price": 260.5,
+            "create_time": "2024-02-12 23:30:00",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 22,
+            "price": 11.79,
+            "create_time": "2024-02-13 10:37:00",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 23,
+            "price": 13.75,
+            "create_time": "2024-02-13 10:37:00",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 24,
+            "price": 260.5,
+            "create_time": "2024-02-13 10:37:00",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 25,
+            "price": 11.79,
+            "create_time": "2024-02-14 07:30:00",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 26,
+            "price": 13.75,
+            "create_time": "2024-02-14 07:30:00",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 27,
+            "price": 260.5,
+            "create_time": "2024-02-14 07:30:00",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 28,
+            "price": 11.79,
+            "create_time": "2024-02-15 07:30:00",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 29,
+            "price": 13.75,
+            "create_time": "2024-02-15 07:30:00",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 30,
+            "price": 260.5,
+            "create_time": "2024-02-15 07:30:00",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 37,
+            "price": 11.93,
+            "create_time": "2024-02-16 19:25:04",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 38,
+            "price": 13.77,
+            "create_time": "2024-02-16 19:25:04",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 39,
+            "price": 288.0,
+            "create_time": "2024-02-16 19:25:04",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 44,
+            "price": 288.0,
+            "create_time": "2024-02-18 12:32:22",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 45,
+            "price": 13.77,
+            "create_time": "2024-02-18 12:32:22",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 46,
+            "price": 11.93,
+            "create_time": "2024-02-18 12:32:22",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 48,
+            "price": 14.02,
+            "create_time": "2024-02-20 10:09:08",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 49,
+            "price": 12.22,
+            "create_time": "2024-02-20 10:09:08",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 50,
+            "price": 295.0,
+            "create_time": "2024-02-20 10:09:08",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 52,
+            "price": 12.29,
+            "create_time": "2024-02-21 14:07:07",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 53,
+            "price": 14.1,
+            "create_time": "2024-02-21 14:07:35",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 54,
+            "price": 295.5,
+            "create_time": "2024-02-21 14:08:11",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 55,
+            "price": 12.28,
+            "create_time": "2024-02-22 14:45:04",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 56,
+            "price": 14.3,
+            "create_time": "2024-02-22 14:45:32",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 57,
+            "price": 295.0,
+            "create_time": "2024-02-22 14:46:01",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 59,
+            "price": 37.59,
+            "create_time": "2024-02-24 01:34:39",
+            "stock_id_id": "0056"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 60,
+            "price": 12.33,
+            "create_time": "2024-02-24 01:34:40",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 61,
+            "price": 14.31,
+            "create_time": "2024-02-24 01:34:40",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 62,
+            "price": 297.0,
+            "create_time": "2024-02-24 01:34:41",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 63,
+            "price": 37.59,
+            "create_time": "2024-02-24 13:32:36",
+            "stock_id_id": "0056"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 64,
+            "price": 12.33,
+            "create_time": "2024-02-24 13:32:36",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 65,
+            "price": 14.31,
+            "create_time": "2024-02-24 13:32:36",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 66,
+            "price": 297.0,
+            "create_time": "2024-02-24 13:32:37",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 67,
+            "price": 37.59,
+            "create_time": "2024-02-24 13:37:06",
+            "stock_id_id": "0056"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 68,
+            "price": 12.33,
+            "create_time": "2024-02-24 13:37:06",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 69,
+            "price": 14.31,
+            "create_time": "2024-02-24 13:37:07",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 70,
+            "price": 297.0,
+            "create_time": "2024-02-24 13:37:07",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 71,
+            "price": 31.589,
+            "create_time": "2024-02-24 13:37:08",
+            "stock_id_id": "USD"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 72,
+            "price": 37.59,
+            "create_time": "2024-02-25 17:57:36",
+            "stock_id_id": "0056"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 73,
+            "price": 12.33,
+            "create_time": "2024-02-25 17:57:37",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 74,
+            "price": 14.31,
+            "create_time": "2024-02-25 17:57:37",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 75,
+            "price": 297.0,
+            "create_time": "2024-02-25 17:57:38",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 76,
+            "price": 31.589,
+            "create_time": "2024-02-25 17:57:38",
+            "stock_id_id": "USD"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 77,
+            "price": 143.95,
+            "create_time": "2024-02-26 13:35:00",
+            "stock_id_id": "0050"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 78,
+            "price": 37.68,
+            "create_time": "2024-02-26 13:35:01",
+            "stock_id_id": "0056"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 79,
+            "price": 12.07,
+            "create_time": "2024-02-26 13:35:01",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 80,
+            "price": 14.44,
+            "create_time": "2024-02-26 13:35:02",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 81,
+            "price": 307.0,
+            "create_time": "2024-02-26 13:35:02",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 82,
+            "price": 31.547,
+            "create_time": "2024-02-26 13:35:02",
+            "stock_id_id": "USD"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 83,
+            "price": 143.35,
+            "create_time": "2024-02-27 13:35:00",
+            "stock_id_id": "0050"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 84,
+            "price": 37.51,
+            "create_time": "2024-02-27 13:35:01",
+            "stock_id_id": "0056"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 85,
+            "price": 12.23,
+            "create_time": "2024-02-27 13:35:01",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 86,
+            "price": 14.34,
+            "create_time": "2024-02-27 13:35:02",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 87,
+            "price": 303.0,
+            "create_time": "2024-02-27 13:35:02",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 88,
+            "price": 31.598,
+            "create_time": "2024-02-27 13:35:02",
+            "stock_id_id": "USD"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 89,
+            "price": 143.35,
+            "create_time": "2024-02-28 13:35:00",
+            "stock_id_id": "0050"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 90,
+            "price": 37.51,
+            "create_time": "2024-02-28 13:35:01",
+            "stock_id_id": "0056"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 91,
+            "price": 12.23,
+            "create_time": "2024-02-28 13:35:01",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 92,
+            "price": 14.34,
+            "create_time": "2024-02-28 13:35:02",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 93,
+            "price": 303.0,
+            "create_time": "2024-02-28 13:35:02",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 94,
+            "price": 31.633,
+            "create_time": "2024-02-28 13:35:03",
+            "stock_id_id": "USD"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 95,
+            "price": 143.35,
+            "create_time": "2024-02-28 20:03:56",
+            "stock_id_id": "0050"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 96,
+            "price": 37.51,
+            "create_time": "2024-02-28 20:03:57",
+            "stock_id_id": "0056"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 97,
+            "price": 12.23,
+            "create_time": "2024-02-28 20:03:57",
+            "stock_id_id": "00885"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 98,
+            "price": 14.34,
+            "create_time": "2024-02-28 20:03:58",
+            "stock_id_id": "00900"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 99,
+            "price": 303.0,
+            "create_time": "2024-02-28 20:03:58",
+            "stock_id_id": "6719"
+        }
+    },
+    {
+        "model": "main.trackingstockprice",
+        "field": {
+            "id": 100,
+            "price": 31.686,
+            "create_time": "2024-02-28 20:03:59",
+            "stock_id_id": "USD"
+        }
+    }
+]
