@@ -1,0 +1,162 @@
+[
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 4,
+            "asset_profit": 0,
+            "stock_profit": -29942,
+            "create_time": "2024-02-14 07:35:00",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 5,
+            "asset_profit": 0,
+            "stock_profit": -29942,
+            "create_time": "2024-02-15 07:35:00",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 7,
+            "asset_profit": 0,
+            "stock_profit": -26355,
+            "create_time": "2024-02-16 19:25:04",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 9,
+            "asset_profit": 0,
+            "stock_profit": -26355,
+            "create_time": "2024-02-18 12:33:11",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 10,
+            "asset_profit": 0,
+            "stock_profit": -23269,
+            "create_time": "2024-02-20 10:13:01",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 11,
+            "asset_profit": 0,
+            "stock_profit": -22582,
+            "create_time": "2024-02-21 14:25:00",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 20,
+            "asset_profit": -3400,
+            "stock_profit": 36517,
+            "create_time": "2024-02-24 13:39:25",
+            "user_id": "Emma"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 21,
+            "asset_profit": 17342,
+            "stock_profit": -21552,
+            "create_time": "2024-02-24 13:39:25",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 22,
+            "asset_profit": -3400,
+            "stock_profit": 36517,
+            "create_time": "2024-02-25 17:57:36",
+            "user_id": "Emma"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 23,
+            "asset_profit": 17342,
+            "stock_profit": -21552,
+            "create_time": "2024-02-25 17:57:36",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 24,
+            "asset_profit": -3400,
+            "stock_profit": 36852,
+            "create_time": "2024-02-26 14:00:00",
+            "user_id": "Emma"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 25,
+            "asset_profit": 17319,
+            "stock_profit": -21581,
+            "create_time": "2024-02-26 14:00:00",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 26,
+            "asset_profit": 0,
+            "stock_profit": 0,
+            "create_time": "2024-02-26 14:00:00",
+            "user_id": "Test1"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 27,
+            "asset_profit": -3726,
+            "stock_profit": 36218,
+            "create_time": "2024-02-28 20:15:47",
+            "user_id": "Emma"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 28,
+            "asset_profit": 17395,
+            "stock_profit": -20954,
+            "create_time": "2024-02-28 20:15:47",
+            "user_id": "Jarvis"
+        }
+    },
+    {
+        "model": "main.profitdata",
+        "fields": {
+            "id": 29,
+            "asset_profit": 0,
+            "stock_profit": 0,
+            "create_time": "2024-02-28 20:15:47",
+            "user_id": "Test1"
+        }
+    }
+]
