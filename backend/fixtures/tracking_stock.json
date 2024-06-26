@@ -1,7 +1,7 @@
 [
     {
         "model": "main.trackingstock",
-        "field": {
+        "fields": {
             "code": "0050",
             "name": "",
             "create_time": "2024-02-25 23:34:30",
@@ -10,7 +10,7 @@
     },
     {
         "model": "main.trackingstock",
-        "field": {
+        "fields": {
             "code": "0056",
             "name": "",
             "create_time": "2024-02-23 14:51:41",
@@ -19,7 +19,7 @@
     },
     {
         "model": "main.trackingstock",
-        "field": {
+        "fields": {
             "code": "00885",
             "name": "",
             "create_time": "2024-02-11 05:21:42",
@@ -28,7 +28,7 @@
     },
     {
         "model": "main.trackingstock",
-        "field": {
+        "fields": {
             "code": "00900",
             "name": "",
             "create_time": "2024-02-11 05:21:42",
@@ -37,7 +37,7 @@
     },
     {
         "model": "main.trackingstock",
-        "field": {
+        "fields": {
             "code": "6719",
             "name": "",
             "create_time": "2024-02-11 05:21:42",
@@ -46,7 +46,7 @@
     },
     {
         "model": "main.trackingstock",
-        "field": {
+        "fields": {
             "code": "USD",
             "name": "",
             "create_time": "2024-02-24 12:48:46",

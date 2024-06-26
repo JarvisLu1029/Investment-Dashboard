@@ -1,7 +1,7 @@
 [
     {
         "model": "main.trackingasset",
-        "field": {
+        "fields": {
             "asset_name": "富利人生",
             "create_time": "2024-02-19 23:28:02",
             "id": 1,
@@ -10,7 +10,7 @@
     },
     {
         "model": "main.trackingasset",
-        "field": {
+        "fields": {
             "asset_name": "摩根泰國基金",
             "create_time": "2024-02-27 11:35:10",
             "id": 2,
@@ -19,7 +19,7 @@
     },
     {
         "model": "main.trackingasset",
-        "field": {
+        "fields": {
             "asset_name": "柏瑞趨勢動態多重資產基金-B類型",
             "create_time": "2024-02-24 01:44:29",
             "id": 3,
@@ -28,7 +28,7 @@
     },
     {
         "model": "main.trackingasset",
-        "field": {
+        "fields": {
             "asset_name": "鑫美一生(安聯)",
             "create_time": "2024-02-19 23:28:02",
             "id": 4,
@@ -37,7 +37,7 @@
     },
     {
         "model": "main.trackingasset",
-        "field": {
+        "fields": {
             "asset_name": "鑫美一生(富蘭克林)",
             "create_time": "2024-02-19 23:28:02",
             "id": 5,
