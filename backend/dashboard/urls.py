@@ -21,7 +21,7 @@ from django.conf.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('<str:name>/', views.index),
+    path('<str:name>', views.index),
     path('api/', include('main.urls')),
     path('callback', linebot.callback),
     path('get_profit_image', linebot.get_profit_image)
